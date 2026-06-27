@@ -1,0 +1,336 @@
+.seccion-precio-hero {
+  min-height: 100vh;
+  padding: 130px 80px 80px;
+  position: relative;
+  overflow: hidden;
+
+  background:
+    radial-gradient(
+      circle at 90% 5%,
+      rgba(112, 92, 255, 0.18),
+      transparent 32%
+    ),
+    radial-gradient(
+      circle at 5% 95%,
+      rgba(39, 196, 255, 0.14),
+      transparent 30%
+    ),
+    linear-gradient(135deg, #f6f8ff 0%, #eef3ff 48%, #f8f5ff 100%);
+}
+
+.forma-precio-superior,
+.forma-precio-inferior {
+  position: absolute;
+  border-radius: 50%;
+  pointer-events: none;
+}
+
+.forma-precio-superior {
+  right: -160px;
+  top: -180px;
+  width: 560px;
+  height: 560px;
+  background: rgba(112, 92, 255, 0.12);
+}
+
+.forma-precio-inferior {
+  left: -160px;
+  bottom: -260px;
+  width: 520px;
+  height: 520px;
+  background: rgba(39, 196, 255, 0.1);
+}
+
+.contenido-precio-hero {
+  max-width: 1250px;
+  margin: 0 auto 35px;
+  position: relative;
+  z-index: 5;
+  text-align: center;
+}
+
+.texto-precio-hero {
+  max-width: 900px;
+  margin: auto;
+}
+
+.texto-precio-hero h1 {
+  color: #11142d;
+  font-size: clamp(2.7rem, 5vw, 5rem);
+  line-height: 1;
+  letter-spacing: -3px;
+  font-weight: 900;
+  margin: 22px 0 20px;
+}
+
+.texto-precio-hero p {
+  font-size: 1.18rem;
+  line-height: 1.7;
+  color: #66708f;
+  max-width: 850px;
+  margin: auto;
+}
+
+.etiqueta-precio {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  background: rgba(112, 92, 255, 0.1);
+  color: #6d5cff;
+  padding: 10px 20px;
+  border-radius: 999px;
+  font-weight: 900;
+}
+
+.etiqueta-precio span {
+  width: 8px;
+  height: 8px;
+  background: #6d5cff;
+  border-radius: 50%;
+}
+
+.Planes-ui-hero {
+  max-width: 1250px;
+  margin: 0 auto;
+  position: relative;
+  z-index: 5;
+}
+
+.contenedor-planes {
+  width: 100%;
+}
+
+.selector-municipio {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.selector-municipio label {
+  display: block;
+  color: #11142d;
+  font-size: 1.7rem;
+  font-weight: 900;
+  margin-bottom: 12px;
+}
+
+.selector-municipio select {
+  width: 360px;
+  max-width: 100%;
+  padding: 14px 18px;
+  border-radius: 14px;
+  border: 2px solid #6d5cff;
+  color: #6d5cff;
+  background: white;
+  font-size: 1.1rem;
+  font-weight: 800;
+  outline: none;
+}
+
+.grid-planes {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(230px, 1fr));
+  gap: 24px;
+  align-items: stretch;
+}
+
+.tarjeta-plan {
+  background: white;
+  border-radius: 26px;
+  overflow: hidden;
+  box-shadow: 0 25px 60px rgba(30, 42, 90, 0.12);
+  border: 1px solid rgba(112, 92, 255, 0.12);
+  transition: 0.3s;
+}
+
+.tarjeta-plan:hover {
+  transform: translateY(-8px);
+}
+
+.encabezado-plan {
+  padding: 24px 18px;
+  text-align: center;
+  color: white;
+}
+
+.encabezado-plan h3 {
+  font-size: 2rem;
+  font-weight: 900;
+  margin-bottom: 6px;
+}
+
+.encabezado-plan p {
+  font-size: 1.05rem;
+  font-weight: 700;
+}
+
+.color-plan-0 {
+  background: #6d5cff;
+}
+
+.color-plan-1 {
+  background: #27c4ff;
+}
+
+.color-plan-2 {
+  background: #11142d;
+}
+
+.cuerpo-plan {
+  padding: 32px 28px 28px;
+  text-align: center;
+}
+
+.precio-plan {
+  color: #11142d;
+  margin-bottom: 24px;
+}
+
+.precio-plan span {
+  font-size: 1.5rem;
+  font-weight: 900;
+  vertical-align: top;
+}
+
+.precio-plan strong {
+  font-size: clamp(3.4rem, 5vw, 4.6rem);
+  line-height: 1;
+  font-weight: 950;
+}
+
+.precio-plan small {
+  font-size: 1.25rem;
+  font-weight: 800;
+}
+
+.lista-plan {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 28px;
+  text-align: left;
+}
+
+.lista-plan li {
+  color: #66708f;
+  font-size: 0.98rem;
+  margin-bottom: 14px;
+  display: flex;
+  align-items: center;
+}
+
+.lista-plan li::before {
+  content: "✓";
+  flex: 0 0 23px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 23px;
+  height: 23px;
+  margin-right: 10px;
+  border-radius: 50%;
+  background: #6d5cff;
+  color: white;
+  font-size: 0.8rem;
+  font-weight: 900;
+}
+
+.boton-plan {
+  display: inline-block;
+  width: 100%;
+  padding: 15px 20px;
+  border-radius: 14px;
+  color: white;
+  text-decoration: none;
+  font-weight: 900;
+  transition: 0.3s;
+}
+
+.boton-plan:hover {
+  transform: translateY(-5px);
+}
+
+.color-boton-0 {
+  background: #6d5cff;
+}
+
+.color-boton-1 {
+  background: #27c4ff;
+}
+
+.color-boton-2 {
+  background: #11142d;
+}
+
+@media (max-width: 1050px) {
+  .seccion-precio-hero {
+    padding: 120px 35px 70px;
+  }
+
+  .grid-planes {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 700px) {
+  .seccion-precio-hero {
+    padding: 110px 22px 55px;
+  }
+
+  .texto-precio-hero h1 {
+    font-size: 2.6rem;
+    letter-spacing: -2px;
+  }
+
+  .texto-precio-hero p {
+    font-size: 1rem;
+  }
+
+  .grid-planes {
+    grid-template-columns: 1fr;
+  }
+
+  .selector-municipio label {
+    font-size: 1.4rem;
+  }
+
+  .selector-municipio select {
+    width: 100%;
+  }
+}
+
+/* PLANETA HECHO CON CSS */
+.planeta-hero {
+  position: absolute;
+  right: 8%;
+  bottom: 20%;
+
+  width: 150px;
+  height: 150px;
+
+  border-radius: 50%;
+  background:
+    radial-gradient(
+      circle at 25% 25%,
+      rgba(255, 255, 255, 0.55),
+      transparent 18%
+    ),
+    linear-gradient(135deg, #7b6cff, #3f4cff);
+
+  z-index: 1;
+}
+
+/* ANILLO DEL PLANETA */
+.planeta-hero::after {
+  content: "";
+
+  position: absolute;
+  left: -28px;
+  top: 58px;
+
+  width: 210px;
+  height: 42px;
+
+  border: 5px solid rgba(39, 196, 255, 0.35);
+  border-radius: 50%;
+
+  transform: rotate(-8deg);
+}

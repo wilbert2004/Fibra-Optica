@@ -1,0 +1,86 @@
+/* ===========================
+   ETIQUETAS DE SECCIÓN
+=========================== */
+
+.etiqueta-seccion {
+  display: inline-flex;
+  align-items: center;
+  gap: 9px;
+
+  padding: 9px 18px;
+
+  border-radius: 999px;
+
+  background: rgba(112, 92, 255, 0.1);
+
+  color: #6d5cff;
+
+  font-size: 0.9rem;
+  font-weight: 800;
+}
+
+.etiqueta-seccion span {
+  width: 8px;
+  height: 8px;
+
+  border-radius: 50%;
+
+  background: #6d5cff;
+}
+
+/* ===========================
+   TÍTULOS PRINCIPALES
+=========================== */
+
+.titulo-principal {
+  color: #11142d;
+
+  font-size: clamp(3rem, 5.4vw, 6rem);
+
+  line-height: 1;
+
+  letter-spacing: -3px;
+
+  font-weight: 700;
+}
+
+/* ===========================
+   DESCRIPCIONES
+=========================== */
+
+.descripcion-principal {
+  color: #66708f;
+
+  font-size: 1.35rem;
+
+  line-height: 1.55;
+
+  font-weight: 500;
+
+  max-width: 720px;
+}
+
+/* ===========================
+   RESPONSIVE
+=========================== */
+
+@media (max-width: 900px) {
+  .titulo-principal {
+    font-size: 4rem;
+  }
+
+  .descripcion-principal {
+    font-size: 1.2rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .titulo-principal {
+    font-size: 3rem;
+    letter-spacing: -2px;
+  }
+
+  .descripcion-principal {
+    font-size: 1.1rem;
+  }
+}
