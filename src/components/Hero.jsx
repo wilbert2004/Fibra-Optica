@@ -27,7 +27,7 @@ function Hero() {
 
           <div className="acciones-hero">
             <a
-              href="https://wa.me/529997709379"
+              href="https://wa.me/529997709379?text=Hola%2C%20me%20interesa%20contratar%20un%20plan%20de%20internet%20de%20fibra%20%C3%B3ptica.%20%C2%BFMe%20pueden%20compartir%20informaci%C3%B3n%20sobre%20los%20paquetes%20disponibles%3F"
               target="_blank"
               rel="noreferrer"
               className="boton-hero"
