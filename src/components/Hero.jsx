@@ -1,5 +1,6 @@
 // importamos el style del hero
 import "../assets/styles/hero.css";
+import { Link } from "react-router-dom";
 
 function Hero() {
   return (
@@ -34,9 +35,9 @@ function Hero() {
               Contratar ahora
             </a>
 
-            <a href="/precios" className="boton-secundario-hero">
+            <Link to="/precios" className="boton-secundario-hero">
               Ver paquetes
-            </a>
+            </Link>
           </div>
 
           <div className="tarjetas-hero">
