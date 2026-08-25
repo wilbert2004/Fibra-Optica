@@ -34,7 +34,7 @@ function Hero() {
               Contratar ahora
             </a>
 
-            <a href="#precios" className="boton-secundario-hero">
+            <a href="/precios" className="boton-secundario-hero">
               Ver paquetes
             </a>
           </div>

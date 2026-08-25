@@ -49,44 +49,17 @@
   text-align: center;
 }
 
-.texto-precio-hero {
-  max-width: 900px;
-  margin: auto;
+.texto-precio-hero .etiqueta-seccion {
+  margin-bottom: 22px;
 }
 
-.texto-precio-hero h1 {
-  color: #11142d;
-  font-size: clamp(2.7rem, 5vw, 5rem);
-  line-height: 1;
-  letter-spacing: -3px;
-  font-weight: 900;
-  margin: 22px 0 20px;
+.texto-precio-hero .titulo-principal {
+  margin-bottom: 22px;
 }
 
-.texto-precio-hero p {
-  font-size: 1.18rem;
-  line-height: 1.7;
-  color: #66708f;
-  max-width: 850px;
-  margin: auto;
-}
-
-.etiqueta-precio {
-  display: inline-flex;
-  align-items: center;
-  gap: 10px;
-  background: rgba(112, 92, 255, 0.1);
-  color: #6d5cff;
-  padding: 10px 20px;
-  border-radius: 999px;
-  font-weight: 900;
-}
-
-.etiqueta-precio span {
-  width: 8px;
-  height: 8px;
-  background: #6d5cff;
-  border-radius: 50%;
+.texto-precio-hero .descripcion-principal {
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .Planes-ui-hero {
@@ -131,6 +104,17 @@
   grid-template-columns: repeat(3, minmax(230px, 1fr));
   gap: 24px;
   align-items: stretch;
+}
+
+@media (min-width: 1400px) {
+  .contenido-precio-hero,
+  .Planes-ui-hero {
+    max-width: 1450px;
+  }
+
+  .grid-planes {
+    gap: 42px;
+  }
 }
 
 .tarjeta-plan {

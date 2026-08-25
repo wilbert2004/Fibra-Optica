@@ -6,8 +6,6 @@ import "leaflet/dist/leaflet.css";
 import L from "leaflet";
 //impotamos la data de cobertura para mostrar los puntos en el mapa
 import { puntosCobertura } from "../../data/cobertura.js";
-//usaremos esyados para manejar el boton grande de la mapa
-import { useState } from "react";
 
 //creremos nuetsro icono de mascota
 const iconMascota = new L.Icon({
@@ -23,9 +21,7 @@ const iconMascota = new L.Icon({
 });
 
 //crearemos la funcion para mostrar el mapa
-function CoverageMap({ className }) {
-  //definimos un estado para manejar el boton grande de la mapa
-  const [pantallaCompleta, setPantallaCompleta] = useState(false);
+function CoverageMap() {
   return (
     <MapContainer className="mapa-grande" center={[21.1, -88.53]} zoom={11}>
       <TileLayer

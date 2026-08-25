@@ -57,48 +57,6 @@
   align-items: center;
 }
 
-.etiqueta-nosotros {
-  display: inline-flex;
-  align-items: center;
-  gap: 10px;
-
-  background: rgba(112, 92, 255, 0.1);
-  color: #6d5cff;
-
-  padding: 10px 20px;
-  border-radius: 999px;
-
-  font-weight: 900;
-  margin-bottom: 25px;
-}
-
-.etiqueta-nosotros span {
-  width: 8px;
-  height: 8px;
-
-  background: #6d5cff;
-  border-radius: 50%;
-}
-
-.texto-nosotros-hero h1 {
-  color: #11142d;
-
-  font-size: clamp(3rem, 5.5vw, 6rem);
-  line-height: 1;
-  letter-spacing: -3px;
-
-  margin-bottom: 25px;
-}
-
-.texto-nosotros-hero p {
-  color: #66708f;
-
-  font-size: 1.3rem;
-  line-height: 1.7;
-
-  max-width: 720px;
-}
-
 .tarjeta-nosotros-hero {
   background: rgba(255, 255, 255, 0.88);
   border: 1px solid rgba(112, 92, 255, 0.13);
@@ -216,6 +174,21 @@
   color: #66708f;
   line-height: 1.8;
   font-size: 1.05rem;
+}
+
+@media (min-width: 1400px) {
+  .contenido-nosotros-hero,
+  .contenedor-mision-vision {
+    max-width: 1450px;
+  }
+
+  .contenido-nosotros-hero {
+    gap: 100px;
+  }
+
+  .tarjetas-mision-vision {
+    gap: 42px;
+  }
 }
 
 @media (max-width: 900px) {

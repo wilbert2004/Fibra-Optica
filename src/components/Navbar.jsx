@@ -42,8 +42,6 @@ function Navbar() {
         <Link to="/cobertura">Cobertura</Link>
 
         <Link to="/precios">Precios</Link>
-
-        <Link to="/legal">Legal</Link>
       </nav>
     </header>
   );

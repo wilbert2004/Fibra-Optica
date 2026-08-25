@@ -5,7 +5,7 @@ function MisionVision() {
     <section className="seccion-mision-vision">
       <div className="contenedor-mision-vision">
         <div className="encabezado-mision-vision">
-          <span className="etiqueta-nosotros">
+          <span className="etiqueta-seccion">
             <span></span>
             Nuestra esencia
           </span>

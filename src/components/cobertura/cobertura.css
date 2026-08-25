@@ -100,6 +100,13 @@
   border-radius: 22px;
 }
 
+@media (min-width: 1400px) {
+  .contenido-cobertura-hero {
+    max-width: 1550px;
+    gap: 90px;
+  }
+}
+
 /* TABLET */
 @media (max-width: 900px) {
   .seccion-cobertura-hero {
