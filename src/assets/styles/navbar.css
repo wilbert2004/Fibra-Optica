@@ -35,10 +35,9 @@
   align-items: center;
 
   border-radius: 50%;
-  background: #6d5cff;
 }
 
-.logo-imagen-navbar{
+.logo-imagen-navbar {
   width: 55px;
   height: 55px;
   object-fit: contain;
@@ -138,5 +137,16 @@
 
   .enlaces-activos {
     display: flex;
+  }
+}
+
+@media (min-width: 1400px) {
+  .enlaces-navbar {
+    gap: 24px;
+  }
+
+  .enlaces-navbar a {
+    padding-left: 22px;
+    padding-right: 22px;
   }
 }

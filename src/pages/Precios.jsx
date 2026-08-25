@@ -4,6 +4,8 @@ import Footer from "../components/Footer.jsx";
 import Navbar from "../components/Navbar.jsx";
 //importamos los precios
 import PreciosHero from "../components/precios/PrecioHero.jsx";
+//importamos el chatbot
+import ChatBot from "../components/ChatBot.jsx";
 
 //crearemos la funcion de precios
 function Precios() {
@@ -12,6 +14,7 @@ function Precios() {
       <Navbar />
       <PreciosHero />
       <Footer />
+      <ChatBot />
     </>
   );
 }

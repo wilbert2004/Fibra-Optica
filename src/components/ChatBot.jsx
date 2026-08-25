@@ -10,7 +10,7 @@ function ChatBot() {
       </div>
 
       <a
-        href="https://wa.me/529903406287"
+        href="https://wa.me/529997709379?text=Hola%20StarMy,%20necesito%20ayuda"
         target="_blank"
         rel="noreferrer"
         className="boton-chatbot"

@@ -11,12 +11,14 @@ function PrecioHero() {
       <div className="forma-precio-inferior"></div>
       <div className="contenido-precio-hero">
         <div className="texto-precio-hero">
-          <span className="etiqueta-precio">
+          <span className="etiqueta-seccion">
             <span></span>
             Planes
           </span>
-          <h1>Planes de internet de fibra óptica para todos</h1>
-          <p>
+          <h1 className="titulo-principal">
+            Planes de internet de fibra óptica para todos
+          </h1>
+          <p className="descripcion-principal">
             Descubre nuestros planes de internet de fibra óptica diseñados para
             satisfacer tus necesidades. Con velocidades ultrarrápidas y
             conexiones confiables, nuestros planes te brindan la mejor

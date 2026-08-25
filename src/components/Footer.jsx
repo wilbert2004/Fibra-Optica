@@ -1,6 +1,5 @@
 import "../assets/styles/footer.css";
 import {
-  FaFacebookF,
   FaInstagram,
   FaWhatsapp,
   FaMapMarkerAlt,
@@ -53,10 +52,6 @@ function Footer() {
           </p>
 
           <div className="redes-footer">
-            <a href="#">
-              <FaFacebookF />
-            </a>
-
             <a href="https://www.instagram.com/starmynetworks?igsh=MXRiMGU2aXByMzloaQ%3D%3D&utm_source=qr_code">
               <FaInstagram />
             </a>
@@ -68,7 +63,7 @@ function Footer() {
             >
               <FaWhatsapp />
             </a>
-            <a href="Starmynetworks@gmail.com">
+            <a href="mailto:Starmynetworks@gmail.com">
               <FaEnvelope />
             </a>
           </div>
@@ -82,4 +77,5 @@ function Footer() {
   );
 }
 
+//exportamos el componente de footer
 export default Footer;
