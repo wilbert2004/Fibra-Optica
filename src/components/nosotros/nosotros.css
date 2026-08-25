@@ -58,7 +58,9 @@
 }
 
 .tarjeta-nosotros-hero {
-  background: rgba(255, 255, 255, 0.88);
+  position: relative;
+  z-index: 3;
+  background: #ffffff;
   border: 1px solid rgba(112, 92, 255, 0.13);
   border-radius: 28px;
 
@@ -223,7 +225,8 @@
     ),
     linear-gradient(135deg, #7b6cff, #3f4cff);
 
-  z-index: 1;
+  z-index: 0;
+  pointer-events: none;
 }
 
 /* ANILLO DEL PLANETA */
