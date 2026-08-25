@@ -8,7 +8,7 @@ function Navbar() {
 
   return (
     <header className="barra-navegacion">
-      <div className="logo-navbar">
+      <Link to="/" className="logo-navbar" aria-label="Ir al inicio">
         <div className="contenedor-icono-logo">
           <img
             src="/images/hero/logo-starmy.png"
@@ -21,7 +21,7 @@ function Navbar() {
           <h2>STARMY</h2>
           <span>Fibra óptica</span>
         </div>
-      </div>
+      </Link>
 
       <button
         className="boton-menu-movil"
