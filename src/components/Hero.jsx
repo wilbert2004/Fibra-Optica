@@ -18,7 +18,9 @@ function Hero() {
             Fibra para tu comunidad
           </span>
 
-          <h1 className="titulo-principal">Internet veloz para tu mundo</h1>
+          <h1 className="titulo-principal">
+            Starmy Networks: internet veloz para tu mundo
+          </h1>
 
           <p className="descripcion-principal">
             Conecta tu hogar o negocio con la red de <strong>StarMy</strong>.
