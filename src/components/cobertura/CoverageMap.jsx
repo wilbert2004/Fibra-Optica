@@ -25,8 +25,8 @@ function CoverageMap() {
   return (
     <MapContainer className="mapa-grande" center={[21.1, -88.53]} zoom={11}>
       <TileLayer
-        url="https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png"
-        attribution="&copy; OSM &copy; CARTO"
+        url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
+        attribution="&copy; OpenStreetMap contributors"
       />
       {puntosCobertura.map((punto, index) => (
         <Marker
